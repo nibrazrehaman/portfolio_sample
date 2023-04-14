@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&display=swap");
+body {
+  font-family: "Alkatra";
+  padding: 0;
+  background: rgba(231, 227, 227, 0.637);
+}
+
+.logo {
+  font-size: larger;
+  font-weight: bold;
+  padding: 2px;
+  margin: 3px;
+}
+
+.navbar {
+  background: rgb(193, 190, 190);
+  padding: 1em;
+  overflow: hidden;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar .container h1 {
+  align-items: center;
+}
+
+.navbar nav {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  float: right;
+  display: flex;
+}
+.navbar nav li {
+  display: inline;
+  padding: 1.5em;
+}
+.navbar nav a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.primary-nav a {
+  text-decoration: none;
+  color: rgb(74, 72, 72);
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  place-content: space-between;
+  padding: 0;
+}
+.hero .bio {
+  width: 450px;
+  padding: 3em;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.hero .bio span {
+  color: black;
+}
+.hero .bio h1, .hero .bio h2 {
+  color: rgb(64, 61, 61);
+}
+.hero .bio .btn {
+  background: gray;
+  color: white;
+  padding: 0.8em;
+  border-radius: 10%;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+.hero .bio .btn a {
+  color: white;
+  text-decoration: none;
+}
+.hero .bio .btn:hover {
+  color: black;
+}
+.hero .pic {
+  width: 450px;
+  padding: 3em;
+  margin-right: 6em;
+}
+.hero .pic img {
+  background: none;
+  -o-object-position: 30% 30%;
+     object-position: 30% 30%;
+  border-radius: 2rem;
+  margin: 0;
+  width: 300px;
+}
+
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 2em;
+  border-color: black;
+  color: rgb(78, 74, 74);
+  background: rgb(192, 189, 189);
+}
+
+.skill-section {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.skill-section h3 {
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+}
+.skill-section .Tools {
+  border: 2px solid black;
+  padding-right: 2em;
+  margin: 4em;
+  border-radius: 2em;
+  background: rgb(192, 189, 189);
+}
+.skill-section .projects {
+  border: 2px solid black;
+  padding-right: 2em;
+  margin: 4em;
+  border-radius: 2em;
+  background: rgb(192, 189, 189);
+}
+.skill-section .Languages {
+  border: 2px solid black;
+  padding-right: 2em;
+  margin: 4em;
+  border-radius: 2em;
+  background: rgb(192, 189, 189);
+}/*# sourceMappingURL=main.css.map */
